@@ -1,0 +1,16 @@
+{
+  "generator-cli": {
+    "version": "7.16.0",
+    "generators": {
+      "api": {
+        "generatorName": "typescript-fetch",
+        "inputSpec": "http://v2991160.hosted-by-vdsina.ru/docs/json",
+        "output": "src/shared/api",
+        "additionalProperties": {
+          "withInterfaces": true,
+          "supportsES6": true
+        }
+      }
+    }
+  }
+}
