@@ -1,0 +1,63 @@
+.auth-page {
+  display: grid;
+  place-items: center;
+  min-height: 70vh;
+}
+
+.auth-card {
+  width: min(540px, 100%);
+  border: 2px dashed #9ca3af;
+  border-radius: 12px;
+  padding: 28px 32px 36px;
+  background: #f8fafc;
+  box-shadow: none;
+}
+
+.auth-card__title {
+  text-align: center;
+  margin-bottom: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+}
+
+.auth-card__divider {
+  height: 2px;
+  background: #9ca3af;
+  margin-bottom: 24px;
+}
+
+.auth-form .ant-form-item-label > label {
+  font-weight: 700;
+  letter-spacing: 0.01em;
+}
+
+.auth-form .ant-input,
+.auth-form .ant-input-affix-wrapper {
+  border-width: 2px;
+  border-radius: 6px;
+}
+
+.auth-form .ant-btn {
+  height: 52px;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.auth-spinner {
+  display: flex;
+  justify-content: center;
+  padding: 24px 0;
+}
+
+.auth-welcome {
+  width: 100%;
+}
+
+.auth-welcome__title {
+  margin: 0;
+}
+
+.auth-error {
+  display: block;
+  margin-top: 8px;
+}

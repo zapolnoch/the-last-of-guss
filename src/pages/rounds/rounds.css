@@ -1,0 +1,88 @@
+.rounds-page {
+  display: grid;
+  place-items: center;
+  padding: 24px;
+}
+
+.rounds-shell {
+  width: min(880px, 100%);
+  border: 2px dashed #9ca3af;
+  background: #f8fafc;
+  box-shadow: none;
+}
+
+.rounds-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 2px dashed #9ca3af;
+  padding-bottom: 12px;
+  margin-bottom: 16px;
+}
+
+.rounds-title {
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+}
+
+.rounds-player-name {
+  font-weight: 600;
+  letter-spacing: 0.01em;
+}
+
+.rounds-create {
+  margin-bottom: 20px;
+  height: 52px;
+  font-weight: 600;
+}
+
+.rounds-admin-hint {
+  margin-bottom: 20px;
+}
+
+.rounds-list {
+  width: 100%;
+}
+
+.round-card {
+  border: 2px dashed #9ca3af !important;
+  background: #fff;
+}
+
+.round-id {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 16px;
+}
+
+.round-dot {
+  width: 10px;
+  height: 10px;
+  background: #111827;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.round-id__value {
+  color: #0a3f88;
+}
+
+.round-dates {
+  display: grid;
+  gap: 8px;
+  font-size: 16px;
+}
+
+.round-date__label {
+  font-weight: 700;
+}
+
+.round-divider {
+  margin: 8px 0 12px;
+}
+
+.round-status {
+  font-size: 16px;
+}
